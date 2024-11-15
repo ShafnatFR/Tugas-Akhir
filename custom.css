@@ -33,6 +33,11 @@
     color: #ffffff; /* Warna teks tombol aktif */
     border-color: #b6252a;
 }
+.btn-create, .btn-add, .btn-edit, .btn-back, .btn-done{
+    background-color: #b6252a;
+    color: #ffffff;
+    border-style: none;
+}
 a {
     text-decoration: none; /* Menghilangkan underline */
     color: inherit; /* Mengambil warna teks dari elemen induknya */
