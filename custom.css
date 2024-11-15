@@ -1,0 +1,45 @@
+.card {
+    height: 100%;
+    margin-bottom: 20px; /* Sesuaikan nilai ini untuk menambah atau mengurangi jarak antar card */
+}
+.card-body {
+    flex-grow: 1;
+}
+.bg-danger {
+    background-color: #b6252a !important; /* Color for header and buttons */
+}
+.text-light {
+    color: #f8f9fa !important;
+}
+.card-footer {
+    background-color: transparent;
+    border-top: none;
+    display: flex; /* Aktifkan Flexbox pada .card-footer */
+    justify-content: flex-end; /* Posisikan elemen ke kanan */
+}
+
+.btn-primary {
+    background-color: #b6252a;
+    color: #fff;
+    border-color: #b6252a;
+}
+.btn-primary:hover{
+    background-color: #ffffff;
+    color: black;
+    border-color: #ffffff;
+}
+.btn-outline-secondary.active {
+    background-color: #b6252a; /* Warna latar tombol aktif */
+    color: #ffffff; /* Warna teks tombol aktif */
+    border-color: #b6252a;
+}
+a {
+    text-decoration: none; /* Menghilangkan underline */
+    color: inherit; /* Mengambil warna teks dari elemen induknya */
+}
+
+a:hover {
+    text-decoration: none; /* Mencegah underline saat hover */
+    color: inherit; /* Mencegah perubahan warna saat hover */
+    cursor: default; /* Mengubah kursor menjadi default saat hover (opsional) */
+}
